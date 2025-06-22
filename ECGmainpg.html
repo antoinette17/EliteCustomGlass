@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ECG</title>
+
+    <style>
+        .navbar{background-color: none;
+        height: 229px;}
+        .video {
+            background-size: cover;
+        }
+        .Button-div{ align-items: baseline;
+  width: 150px;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 40px;
+padding-right: 40px;
+background-image: url(ecgpics/ecg9.jpg) ;
+border-radius: 10px;}
+
+.but{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(ecgpics/ecg18.jpeg) ;
+    border-color: black;
+    border-width: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius:50% ;
+    width: 100%;
+
+}
+
+
+    .firstpara{ display: flex;
+        flex-direction: row;
+        color: rgb(251, 252, 252);
+    width: 1fr;
+font-size: 25px;}
+
+    
+    </style>
+    </head>
+    <body style="background-image: url(ecgpics/22.png);
+    background-size: cover;">
+        <nav class="navbar">
+         <video class="video" width="100%" height="229px" controls autoplay loop>
+            <source src="ecgpics/ecgvideo2.mp4" type="video/mp4">
+         </video>
+        </nav>
+
+
+    <div style="display: grid; grid-template-columns: 200px 1fr;
+    column-gap: 40px;">
+    <div> <div class="Button-div">
+        <a href="ECGaboutus.html"> <button class="but"> About Us</button></a>
+        <a href="ECGbookings.html"><button class="but">Book a Consultation</button></a>
+        <a href="catalogue.html"><button class="but">View Catalogue</button></a>
+        <a href="faqs.html"><button class="but">FAQs</button></div></a>
+        
+    
+    </div> 
+    <div>
+<p Class="firstpara"> We specialize in shower enclosures, office layouts, outdoor fixtures, 
+        tempered glass, stained glass effect, broken glass effect and more!
+
+        When its time to upgrade your home or office space, wether you desire
+        a more formal decor or a more luxurious layout, contact Elite Custom Glass 
+        for defined quality and precise instillation.
+        <a href="catalogue.html"><strong>View Our Catalogue</strong></a> 
+    </p>
+    </div>
+
+</div>
+    
+    <script src="ScriptsECG/ECG.js">
+    </script>
+    </body>
+</html>
